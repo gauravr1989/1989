@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[total no of links=168]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[total no of links=171]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[total no of links=160]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[total no of links=154]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34648" started-at="2018-09-07T06:12:27Z" finished-at="2018-09-07T06:13:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34648" started-at="2018-09-07T06:12:27Z" finished-at="2018-09-07T06:13:02Z">
+      <class name="testscript.FacebookTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testscript.FacebookTest@3f2a3a5]" name="launchBrowser" is-config="true" duration-ms="5266" started-at="2018-09-07T06:12:54Z" finished-at="2018-09-07T06:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="SearchFb()[pri:0, instance:testscript.FacebookTest@3f2a3a5]" name="SearchFb" duration-ms="1566" started-at="2018-09-07T06:12:59Z" finished-at="2018-09-07T06:13:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[total no of links=154]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchFb -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testscript.FacebookTest@3f2a3a5]" name="closeBrowser" is-config="true" duration-ms="776" started-at="2018-09-07T06:13:01Z" finished-at="2018-09-07T06:13:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscript.FacebookTest -->
+      <class name="testscript.InstagramTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testscript.InstagramTest@60addb54]" name="launchBrowser" is-config="true" duration-ms="4945" started-at="2018-09-07T06:12:47Z" finished-at="2018-09-07T06:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="SearchInsta()[pri:0, instance:testscript.InstagramTest@60addb54]" name="SearchInsta" duration-ms="1565" started-at="2018-09-07T06:12:52Z" finished-at="2018-09-07T06:12:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[total no of links=160]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchInsta -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testscript.InstagramTest@60addb54]" name="closeBrowser" is-config="true" duration-ms="804" started-at="2018-09-07T06:12:53Z" finished-at="2018-09-07T06:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscript.InstagramTest -->
+      <class name="testscript.TwitterTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testscript.TwitterTest@1e67b872]" name="launchBrowser" is-config="true" duration-ms="6125" started-at="2018-09-07T06:12:38Z" finished-at="2018-09-07T06:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="SearchTwt()[pri:0, instance:testscript.TwitterTest@1e67b872]" name="SearchTwt" duration-ms="1405" started-at="2018-09-07T06:12:45Z" finished-at="2018-09-07T06:12:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[total no of links=171]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchTwt -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testscript.TwitterTest@1e67b872]" name="closeBrowser" is-config="true" duration-ms="797" started-at="2018-09-07T06:12:46Z" finished-at="2018-09-07T06:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscript.TwitterTest -->
+      <class name="testscript.LinkedInTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testscript.LinkedInTest@5d624da6]" name="launchBrowser" is-config="true" duration-ms="8651" started-at="2018-09-07T06:12:27Z" finished-at="2018-09-07T06:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="SearchLinked()[pri:0, instance:testscript.LinkedInTest@5d624da6]" name="SearchLinked" duration-ms="1912" started-at="2018-09-07T06:12:36Z" finished-at="2018-09-07T06:12:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[total no of links=168]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchLinked -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testscript.LinkedInTest@5d624da6]" name="closeBrowser" is-config="true" duration-ms="800" started-at="2018-09-07T06:12:38Z" finished-at="2018-09-07T06:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscript.LinkedInTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

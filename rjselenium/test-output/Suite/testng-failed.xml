@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testscript.FacebookTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="SearchFb"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testscript.FacebookTest -->
+      <class name="testscript.InstagramTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="SearchInsta"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testscript.InstagramTest -->
+      <class name="testscript.LinkedInTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="SearchLinked"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testscript.LinkedInTest -->
+      <class name="testscript.TwitterTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="SearchTwt"/>
+        </methods>
+      </class> <!-- testscript.TwitterTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
