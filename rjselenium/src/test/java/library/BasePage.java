@@ -15,7 +15,7 @@ package library;
 		public BasePage(WebDriver driver) {
 			this.driver=driver;
 			PageFactory.initElements(driver, this);
-			 wait = new WebDriverWait(driver,20);hello
+			 wait = new WebDriverWait(driver,20);
 		}
 	public void checkTitle(String title) {
 		try {
